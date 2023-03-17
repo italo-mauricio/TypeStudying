@@ -1,6 +1,4 @@
-const user = {
-    firstName: "Italo",
-    secondName: "Mauricio"
-}
+let idade: number = 15;
+let nome: string = 'Paula';
 
-console.log(user.firstName)
+console.log(`nome: ${nome}, idade: ${idade}`);
