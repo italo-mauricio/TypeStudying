@@ -1,5 +1,4 @@
 
-
 // ======> exemplo Number
 
 let num1: number = 23.0;
@@ -15,7 +14,6 @@ console.log("Número Octadecimal: " + num3);
 console.log(typeof(num3));
 console.log("Número Binário: " + num4);
 console.log(typeof(num4));
-
 
 
 // ======> exemplo com BigInt
