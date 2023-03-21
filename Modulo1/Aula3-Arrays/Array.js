@@ -24,3 +24,12 @@ console.log("O tamanho do Array é de: " + idiomas1.length);
 // ======> Utilizando o Spread Operator
 var listaNum = [0, 1, 2, 3, 4, 5];
 listaNum = __spreadArray(__spreadArray([], listaNum, true), [6, 7, 8, 9, 10], false);
+console.log(listaNum);
+// ======> Array com laço de iteração
+var linguagemArray = new Array('Python', 'Java', 'JavaScript', 'GoLang');
+function funcaoLinguagem(linguaguens) {
+    for (var i = 0; i < linguagemArray.length; i++) {
+        console.log(linguagemArray[i]);
+    }
+}
+funcaoLinguagem(linguagemArray);
